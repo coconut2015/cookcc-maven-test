@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE cookcc PUBLIC "-//CookCC//1.0" "https://raw.githubusercontent.com/coconut2015/cookcc/master/src/resources/cookcc.dtd">
+<cookcc>
+	<lexer>
+		<rule>
+			<pattern>.*|\n</pattern>
+			<action>System.out.println ("*" + yyText () + "*");</action>
+		</rule>
+		<rule>
+			<pattern><![CDATA[<<EOF>>]]></pattern>
+			<action>return 0;</action>
+		</rule>
+	</lexer>
+</cookcc>
