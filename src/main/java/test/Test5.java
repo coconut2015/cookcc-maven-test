@@ -21,6 +21,9 @@ import java.io.FileInputStream;
 
 import java.util.Stack;
 
+/**
+ * @author	Heng Yuan
+ */
 class Test5
 {
 
